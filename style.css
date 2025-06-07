@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(179, 192, 192);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;            
+    height: 100px;                 
+    background-color: green;
+    background-size: cover;                /*ajustar imagen para cubrir header*/
+    background-position: center; /*ajustar imagen al centro*/
+    padding: 0 30px; 
+}
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: yellow;
+
+}
+
+header ul {
+    height: 10px;
+    display: flex;
+    gap: 30px; 
+    list-style: none;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+}
+.contenedor{
+    background-color: rgb(204, 199, 199);
+}
+
+.bienvenidos {
+    color: none;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Imágenes {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 50px;
+}
+
+.Imágenes img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; 
+    border: solid;
+    border-color: green;
+}
+
+.derechos{
+    text-align: center;
+    padding-bottom: 5;
+    padding-top: 0;
+}
+
+
+
